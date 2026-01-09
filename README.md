@@ -1,16 +1,66 @@
-# React + Vite
+# ParkFlow - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application for university parking management built with React.
 
-Currently, two official plugins are available:
+## Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 18
+- Vite
+- Tailwind CSS
+- React Router
+- Axios
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- User authentication (login/register)
+- Real-time parking spot availability
+- Reservation management
+- Interactive parking map
+- Admin dashboard
+- Responsive design
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+    git clone https://github.com/yasser-ms/park_Flow_Web_App.git
+
+Navigate to project directory:
+
+    cd park_Flow_Web_App
+
+Install dependencies:
+
+    npm install
+
+Start development server:
+
+    npm run dev
+
+## Configuration
+
+Create a `.env` file in the root directory:
+
+    VITE_API_URL=http://localhost:8080/api
+
+## Project Structure
+
+    src/
+    ├── components/    # Reusable UI components
+    ├── pages/         # Page components
+    ├── services/      # API calls
+    ├── context/       # React context providers
+    ├── hooks/         # Custom hooks
+    └── assets/        # Images and static files
+
+## Related Repositories
+
+- ParkFlow Backend (Microservices): https://github.com/yasser-ms/parking_managment_APIs
+
+## Author
+
+Yasser - CY Tech Computer Science Student
+
+## License
+
+This project is part of a university SAE project.
