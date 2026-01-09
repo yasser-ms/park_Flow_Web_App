@@ -15,7 +15,7 @@ A web application for university parking management built with React.
 - User authentication (login/register)
 - Real-time parking spot availability
 - Reservation management
-- Interactive parking map
+- QR code generation for parking access
 - Admin dashboard
 - Responsive design
 
@@ -46,12 +46,17 @@ Create a `.env` file in the root directory:
 ## Project Structure
 
     src/
+    ├── Pages/         # Page components
+    ├── QrCode/        # QR code generation
+    ├── api/           # API calls and services
+    ├── assets/        # Images and static files
     ├── components/    # Reusable UI components
-    ├── pages/         # Page components
-    ├── services/      # API calls
     ├── context/       # React context providers
-    ├── hooks/         # Custom hooks
-    └── assets/        # Images and static files
+    ├── sections/      # Page sections
+    ├── utils/         # Utility functions
+    ├── App.jsx        # Main app component
+    ├── index.css      # Global styles
+    └── main.jsx       # Entry point
 
 ## Related Repositories
 
